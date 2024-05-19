@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #154a57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #8ef0f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff; /* Menambahkan bingkai dengan warna biru */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:#084550;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #1149c2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    color:#fff;
+    background-color:#0d4683; /*Latar belakang warna biru muda */
+    border: 2px solid #007bff; /*Bingkai dengan warna biru */
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+}
